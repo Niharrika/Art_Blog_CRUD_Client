@@ -1,0 +1,19 @@
+.carousel-caption {
+  position: absolute;
+  right: 0%;
+  bottom: 100px;
+  left: 0%;
+  z-index: 10;
+  padding-top: 100px;
+  padding-bottom: 140px;
+  color: #fff;
+  text-align: center;
+}
+.btn-primary-outline {
+  background-color: transparent;
+  border-color: #ccc;
+  color: white;
+  position: absolute;
+  left: 45%;
+  bottom: 60px;
+}

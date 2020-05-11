@@ -1,0 +1,18 @@
+<div class="jumbotron">
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">Product ID</th>
+      <th scope="col">Product Name</th>
+      <th scope="col">Product Price</th>
+    </tr>
+  </thead>
+  <tbody *ngFor="let i of listData">
+    <tr>
+      <td>{{i.id}}</td>
+      <td>{{i.name}}</td>
+      <td>{{i.currency}}{{i.price}}</td>
+     </tr>
+  </tbody>
+</table>
+</div>

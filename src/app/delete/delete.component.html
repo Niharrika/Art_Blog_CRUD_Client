@@ -1,0 +1,10 @@
+<div class="jumbotron">
+  <h6 class="display-4"> Delete Existing Product: </h6>
+  <form [formGroup]="delForm" (submit)="sendData()">
+    <div class="form-group">
+      <label for="exampleInputEmail1">Product ID: <p class="lead">(Unique object ID given to you via mail)</p></label>
+      <input type="text" formControlName="id" class="form-control" aria-describedby="emailHelp">
+    </div>
+    <button type="submit" class="btn btn-outline-dark">Submit</button>
+  </form>
+</div>
